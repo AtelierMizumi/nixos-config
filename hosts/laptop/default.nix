@@ -6,6 +6,12 @@
     ./../../modules/core
   ];
 
+  programs.anime-game-launcher = {
+    enable = true;
+    # package = aagl.anime-game-launcher; # for non-flakes
+    # package = inputs.aagl.packages.x86_64-linux.anime-game-launcher; # for flakes
+  };
+
   environment.systemPackages = with pkgs; [
     acpi
     brightnessctl

@@ -383,7 +383,10 @@ in
     };
 
     extraConfig = "
-      monitor=,preferred,auto,1.3
+      monitor=eDP-1,preferred,auto,1.333333
+      monitor=HDMI-1,preferred,auto,1
+      monitor=,preferred,auto,auto
+
 
       xwayland {
         force_zero_scaling = true
