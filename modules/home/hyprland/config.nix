@@ -383,7 +383,7 @@ in
     };
 
     extraConfig = "
-      monitor=,preferred,auto,auto
+      monitor=,preferred,auto,1.3
 
       xwayland {
         force_zero_scaling = true
